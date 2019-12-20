@@ -1,0 +1,121 @@
+/*
+Theme Name: NACA
+Author: Aimee and Connor
+Author Url: cmfreelancing.co.za
+Version: 1.0
+Description: Custom WordPress theme built for the NACA
+*/
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: #026fae;
+}
+nav {
+    background-color: #026fae;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    z-index: 100;
+    width: 100%;
+}
+nav img {
+    height: 150%;
+    position: relative;
+    left: 50px;
+}
+header {
+    height: 90vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+header img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+header #lower {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #026fae;
+    text-align: center;
+    color: #FFF;
+    padding: 20px;
+    box-sizing: border-box;
+    opacity: 0.9;
+}
+main {
+    min-height: 100vh;
+}
+#front #intro {
+    padding: 50px 20%;
+    text-align: center;
+    color: #026fae;
+    font-size: x-large;
+}
+#front #schools {
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#front #schools .school {
+    width: 40%;
+    height: 50vh;
+    border: 2px solid #026fae;
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transition: 0.5s;
+    box-shadow: 2px 2px 0px #222;
+}
+#front #schools .school:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 2px 5px #222;
+}
+#front #schools .school img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#front #schools .school .overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    background: #026fae;
+    opacity: 0.8;
+    color: #FFF;
+}
+footer {
+    height: 100px;
+    background: #026fae;
+    width: 100%;
+}
+#high-school > h2 {
+    width: 100%;
+    padding: 50px 20%;
+    box-sizing: border-box;
+    text-align: center;
+    background: #00498c;
+    margin: 0;
+    color: #FFF;
+}
+#high-school #why {
+    width: 100%;
+    padding: 50px 20%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: x-large;
+}
