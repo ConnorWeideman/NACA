@@ -9,22 +9,78 @@ Description: Custom WordPress theme built for the NACA
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: larger;
+    font-size: x-large;
     color: #026fae;
+}
+button {
+    font: inherit;
 }
 nav {
     background-color: #026fae;
     position: fixed;
     top: 0;
     left: 0;
-    height: 100px;
+    height: 10vh;
     z-index: 100;
     width: 100%;
 }
 nav img {
     height: 150%;
+    margin-left: 1%;
+    max-width: 24%;
+    position: absolute;
+    border: 2px solid #026fae;
+    box-sizing: border-box;
+    z-index: 1;
+}
+nav ul {
+    float: right;
+    margin: 0;
+    height: 10vh;
+    width: 75%;
+    padding: 0;
+    display: table;
+    transition: 0.5s;
+    z-index: 0;
     position: relative;
-    left: 50px;
+}
+nav ul li {
+    list-style: none;
+    display: table-cell;
+    color: #FFF;
+    vertical-align: middle;
+    padding: 0 10px;
+    text-align: center;
+}
+nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: #AAA;
+}
+nav #expand {
+    display: none;
+    height: 100%;
+    width: 10vh;
+    float: right;
+    padding: 2vh;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    align-content: space-between;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+nav #expand .bar {
+    width: 100%;
+    height: 1vh;
+    background-color: #FFF;
+}
+nav #expand:hover .bar {
+    background: #DDD;
 }
 header {
     height: 90vh;
@@ -44,78 +100,58 @@ header #lower {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: #026fae;
     text-align: center;
     color: #FFF;
-    padding: 20px;
+    padding: 0 10px;
     box-sizing: border-box;
-    opacity: 0.9;
 }
-main {
-    min-height: 100vh;
-}
-#front #intro {
-    padding: 50px 20%;
-    text-align: center;
-    color: #026fae;
-    font-size: x-large;
-}
-#front #schools {
-    padding: 50px;
-    display: flex;
-    justify-content: space-evenly;
-}
-#front #schools .school {
-    width: 40%;
-    height: 50vh;
-    border: 2px solid #026fae;
-    box-sizing: border-box;
+header #lower h1 {
+    z-index: 2;
     position: relative;
-    display: block;
-    transition: 0.5s;
-    box-shadow: 2px 2px 0px #222;
 }
-#front #schools .school:hover {
-    transform: scale(1.05);
-    box-shadow: 2px 2px 5px #222;
-}
-#front #schools .school img {
+header #lower #background {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-}
-#front #schools .school .overlay {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    text-align: center;
-    background: #026fae;
     opacity: 0.8;
-    color: #FFF;
+    background-color: #026fae;
+    z-index: 1;
 }
 footer {
-    height: 100px;
     background: #026fae;
     width: 100%;
 }
-#high-school > h2 {
-    width: 100%;
-    padding: 50px 20%;
-    box-sizing: border-box;
-    text-align: center;
-    background: #00498c;
+footer p {
     margin: 0;
+    padding: 20px;
+    text-align: center;
     color: #FFF;
 }
-#high-school #why {
-    width: 100%;
-    padding: 50px 20%;
-    box-sizing: border-box;
-    text-align: center;
-    font-size: x-large;
+@media screen and (max-width: 768px) {
+    /*Stuff Here*/
+    body {
+        font-size: large;
+    }
+    nav img {
+        height: 15vh;
+        max-width: unset;
+    }
+    nav ul {
+        width: 100%;
+        position: absolute;
+        bottom: 100%;
+        background: #026fae;
+        padding-top: 5vh;
+        box-sizing: border-box;
+    }
+    nav ul li {
+        display: block;
+        padding: 10px;
+        border-top: 1px solid #004d8c;
+    }
+    nav #expand {
+        display: flex;
+    }
 }

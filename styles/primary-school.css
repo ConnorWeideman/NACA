@@ -1,0 +1,662 @@
+#primary {
+    background: url("https://cmfreelancing.co.za/client_sites/aimee/wp-content/uploads/2019/12/paper.jpg") top left repeat;
+    width: 100%;
+    overflow: hidden;
+    font-family: "Bubblegum Sans", cursive;
+}
+#primary .box {
+    width: 80%;
+    margin: 0 auto 10vh;
+    border: 5px solid #222;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #555;
+    box-sizing: border-box;
+    background: #FFF;
+}
+#primary .box h2 {
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    color: #FFF;
+}
+#primary .box #content {
+    padding: 5vh 5vw;
+}
+#primary .animal {
+    padding: 5vh 20%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#primary .animal #text {
+    min-height: 30vh;
+    width: 70%;
+    border-radius: 2%;
+    border: 1px solid #555;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+    box-shadow: 2px 2px 5px #222;
+    color: #000;
+}
+#primary .animal #text #tick-1 {
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    bottom: -1px;
+    border-bottom: 1px solid #555;
+}
+#primary .animal #text #tick-2 {
+    width: 5%;
+    height: 10%;
+    background: #e8d9b8;
+    position: absolute;
+    bottom: 0px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #555;
+    border-right: 1px solid #555;
+    border-bottom-right-radius: 100%;
+}
+#primary .animal #character {
+    width: 25%;
+    position: relative;
+    align-self: flex-end;
+    cursor: pointer;
+}
+#primary .animal #character img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+#primary .animal #character #real {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover!important;
+    transition: 1s;
+    transform: scale(0);
+    border: 2px solid #026fae;
+    box-sizing: border-box;
+}
+#primary #intro {
+    background: #B3CFDD;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+#primary #intro img {
+    width: 20%;
+    object-fit: contain;
+}
+#primary #intro h1 {
+    width: 60%;
+    text-align: center;
+    height: max-content;
+    color: #026fae;
+    text-shadow: 2px 2px #FFF;
+    font-size: 200%;
+}
+#primary #parrot #text {
+    float: right;
+    background-color: #FDB843;
+    margin-left: 5%;
+}
+#primary #parrot #text #tick-1 {
+    background-color: #FDB843;
+    left: -5%;
+}
+#primary #parrot #text #tick-2 {
+    left: calc(-5% - 1px);
+    border-bottom-right-radius: 100%;
+}
+#primary #atmosphere {
+    border: 5px solid #A6D608;
+}
+#primary #atmosphere h2 {
+    background: #A6D608;
+}
+#primary #atmosphere #content .wrap {
+    overflow: hidden;
+}
+#primary #atmosphere #content .wrap img {
+    width: 30%;
+    float: right;
+    border: 5px solid #026fae;
+    box-sizing: border-box;
+    margin: 5px;
+}
+#primary #air-pollution {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 10%;
+}
+#primary #air-pollution .box {
+    border: 5px solid #FF007F;
+    position: relative;
+    width: 70%;
+    margin: 0 0 10vh;
+}
+#primary #air-pollution .box h2 {
+    background: #FF007F;
+}
+#primary #air-pollution .box #what {
+    overflow: hidden;
+}
+#primary #air-pollution .box #what img {
+    float: right;
+    width: 30%;
+    border: 5px solid #026fae;
+    box-sizing: border-box;
+    margin-left: 1em;
+}
+#primary #air-pollution .box #wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#primary #air-pollution .box #wrap div {
+    width: 45%;
+    text-align: center;
+    box-sizing: border-box;
+}
+#primary #air-pollution .box #wrap img {
+    width: 75%;
+    margin: auto;
+    border: 5px solid #026fae;
+    box-sizing: border-box;
+}
+#primary #air-pollution #giraffe {
+    width: 23%;
+    padding: 0;
+}
+#primary #air-pollution #giraffe #character {
+    width: 100%;
+}
+#primary #air-pollution #giraffe #text {
+    background: #FDFD66;
+    text-align: center;
+    width: 100%;
+    margin-top: 5vh;
+}
+#primary #air-pollution #giraffe #text #tick-1 {
+    background-color: #FDFD66;
+    bottom: unset;
+    top: -5%;
+    left: -1px;
+    border-bottom: none;
+    border-left: 1px solid #555;
+}
+#primary #air-pollution #giraffe #text #tick-2 {
+    width: 10%;
+    height: 5%;
+    bottom: unset;
+    top: -5%;
+    left: 0;
+    border-right: none;
+    border-left: 1px solid #555;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 0;
+}
+#primary #causes {
+    border: 5px solid #FA0;
+}
+#primary #causes h2 {
+    background: #FA0;
+}
+#primary #causes > p {
+    padding: 5vh 20%;
+    margin: 0;
+    text-align: center;
+}
+#primary #causes #flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+#primary #causes #flex .cause:nth-child(1) {
+    border-top: 4px solid #FA0;
+}
+#primary #causes #flex .cause:nth-child(2) {
+    border-top: 4px solid #FA0;
+}
+#primary #causes #flex .cause {
+    width: 50%;
+    border: 2px solid #FA0;
+    box-sizing: border-box;
+}
+#primary #causes #flex .cause img {
+    width: 100%;
+    height: 40vh;
+    object-fit: contain;
+    border-bottom: 4px solid #FA0;
+}
+#primary #causes #flex .cause .info {
+    width: 100%;
+    padding: 5vh 5vw;
+    box-sizing: border-box;
+}
+#primary #causes #flex .cause .info h3 {
+    margin-top: 0;
+}
+#primary #why {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 10%;
+}
+#primary #why .box {
+    border: 5px solid #026fae;
+    position: relative;
+    width: 70%;
+    margin: 0 0 10vh;
+}
+#primary #why .box h2 {
+    background: #026fae;
+}
+#primary #why .box #content {
+    overflow: hidden;
+}
+#primary #why .box #content p:first-child {
+    margin-top: 0;
+}
+#primary #why .box #content img {
+    width: 30%;
+    border: 5px solid #026fae;
+    box-sizing: border-box;
+    float: right;
+    margin: 0 0 5% 5%;
+}
+#primary #why .box #content a {
+    text-decoration: none;
+}
+#primary #why .box #content #button {
+    width: 50%;
+    margin: auto;
+    background: linear-gradient(#248FCF, #026FAE);
+    text-align: center;
+    color: #FFF;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-decoration: none;
+}
+#primary #why .box #content #button:hover {
+    background: linear-gradient(#004D8C, #026FAE);
+}
+#primary #why #boat {
+    width: 23%;
+    padding: 0;
+}
+#primary #why #boat img {
+    width: 100%;
+    object-fit: contain;
+}
+#primary #gw-causes {
+    border: 5px solid #C947F5;
+}
+#primary #gw-causes h2 {
+    background: #C947F5;
+}
+#primary #gw-causes #flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#primary #gw-causes #flex .cause {
+    width: 40%;
+    height: max-content;
+    border: 2px solid #C947F5;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px #555;
+    position: relative;
+    margin: 5%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#primary #gw-causes #flex .cause:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 10px #555;
+}
+#primary #gw-causes #flex .cause.noHover:hover {
+    transform: scale(1);
+    box-shadow: 2px 2px 5px #555;
+}
+#primary #gw-causes #flex .cause .wrap {
+    position: relative;
+    height: 40vh;
+}
+#primary #gw-causes #flex .cause .wrap img {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+#primary #gw-causes #flex .cause .wrap h3 {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background: #C947F5;
+    color: #FFF;
+    opacity: 0.9;
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+#primary #gw-causes #flex .cause .info {
+    padding: 20px;
+    display: none;
+}
+#primary #penguin {
+    position: relative;
+    display: flex;
+}
+#primary #penguin #text {
+    width: 55%;
+    background-color: #ADD8E6;
+    margin-left: 5%;
+}
+#primary #penguin #text #tick-1 {
+    background-color: #ADD8E6;
+    bottom: -1px;
+    left: -5%;
+}
+#primary #penguin #text #tick-2 {
+    left: -5%;
+}
+#primary #penguin #character {
+    width: 40%;
+}
+#primary #fix {
+    border: 5px solid #9CC7D5;
+}
+#primary #fix h2 {
+    background: #9CC7D5;
+}
+#primary #fix #content .fix {
+    overflow: hidden;
+    margin: 5vh 0;
+}
+#primary #fix #content .fix img {
+    float: right;
+    width: 30%;
+    border: 5px solid #026fae;
+    box-sizing: border-box;
+    margin: 0 0 5% 5%;
+}
+#primary #fix #content .fix p {
+    margin: 0;
+}
+#primary #fix #content .fix:nth-child(2) {
+    text-align: right;
+}
+#primary #fix #content .fix:nth-child(2) img {
+    float: left;
+    margin: 0 5% 5% 0;
+}
+#primary #shark {
+    position: relative;
+    top: -5vh;
+}
+#primary #shark #text {
+    width: 55%;
+    background-color: #A6A7A0;
+    margin-right: 5%;
+    box-shadow: -2px 2px 5px #222;
+}
+#primary #shark #text #tick-1 {
+    background-color: #A6A7A0;
+    right: -5%;
+}
+#primary #shark #text #tick-2 {
+    right: -5%;
+    border-bottom: 1px solid #555;
+    border-left: 1px solid #555;
+    border-bottom-left-radius: 100%;
+    border-right: none;
+    border-bottom-right-radius: 0;
+}
+#primary #shark #character {
+    width: 40%;
+}
+#primary #you-do h2 {
+    width: 60%;
+    margin: 0 auto;
+    background: #FFD700;
+    color: #FFF;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 5px #555;
+}
+#primary #you-do #flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#primary #you-do #flex .box {
+    width: 40%;
+    margin: 5%;
+    border: 5px solid #FFD700;
+    box-sizing: border-box;
+}
+#primary #you-do #flex .box h3 {
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background: #FFD700;
+    color: #FFF;
+}
+#primary #you-do #flex .box img {
+    width: 100%;
+    height: 40vh;
+    object-fit: contain;
+}
+#primary #you-do #flex .box p {
+    padding: 20px;
+}
+#primary #treasure {
+    padding: 0 10% 10vh;
+    align-items: center;
+}
+#primary #treasure #text {
+    width: 50%;
+    float: right;
+    background-color: #FFD700;
+    margin: 0 5%;
+}
+#primary #treasure #text #tick-1 {
+    background-color: #FFD700;
+    left: -5%;
+}
+#primary #treasure #text #tick-2 {
+    left: -5%;
+}
+#primary #treasure #left {
+    width: 20%;
+}
+#primary #treasure #right {
+    width: 20%;
+}
+#primary #treasure img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+@media screen and (max-width: 768px) {
+    header img {
+        left: -100%;
+        width: 200%;
+    }
+    #primary .box {
+        width: 90%;
+        margin: 0 auto 5vh;
+    }
+    #primary .box h2 {
+        padding: 10px;
+    }
+    #primary .animal {
+        padding: 5vh 10%;
+    }
+    #primary .animal #character {
+        width: 50%!important;
+    }
+    #primary .animal #text {
+        width: 100%!important;
+        margin-top: 5vh!important;
+        max-height: unset!important;
+    }
+    #primary .animal #text #tick-1 {
+        bottom: unset!important;
+        top: -5%!important;
+        left: -1px!important;
+        border-bottom: none!important;
+        border-left: 1px solid #555!important;
+    }
+    #primary .animal #text #tick-2 {
+        width: 10%!important;
+        height: 5%!important;
+        bottom: unset!important;
+        top: -5%!important;
+        left: 0!important;
+        border-right: none!important;
+        border-left: 1px solid #555!important;
+        border-bottom-left-radius: 100%!important;
+        border-bottom-right-radius: 0!important;
+    }
+    #primary #intro {
+        padding: 10px;
+    }
+    #primary #intro img {
+        width: 50%;
+    }
+    #primary #intro h1 {
+        width: 90%;
+        order: 3;
+    }
+    #primary #atmosphere #content .wrap img {
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
+    #primary #air-pollution {
+        padding: 0;
+    }
+    #primary #air-pollution .box {
+        width: 90%;
+        margin: 0 auto;
+    }
+    #primary #air-pollution #giraffe {
+        width: 100%;
+        padding: 5vh 10%;
+        box-sizing: border-box;
+    }
+    #primary #air-pollution #giraffe #character {
+        width: 45%!important;
+    }
+    #primary #air-pollution #giraffe #text {
+        margin-left: 5%!important;
+        width: 50%!important;
+        margin-top: 0!important;
+    }
+    #primary #air-pollution #giraffe #text #tick-1 {
+        left: -5%!important;
+        bottom: -1px!important;
+        top: unset!important;
+        border-bottom: 1px solid #555!important;
+        border-left: unset!important;
+    }
+    #primary #air-pollution #giraffe #text #tick-2 {
+        left: -5%!important;
+        border-bottom-right-radius: 100%!important;
+        width: 5%!important;
+        height: 10%!important;
+        bottom: -1px!important;
+        top: unset!important;
+        border-right: 1px solid #555!important;
+        border-left: none!important;
+        border-bottom-left-radius: unset!important;
+    }
+    #primary #causes {
+        margin: 0 auto;
+    }
+    #primary #causes > p {
+        padding: 5vh 10%;
+    }
+    #primary #causes #flex .cause {
+        width: 100%;
+    }
+    #primary #why {
+        padding: 0;
+    }
+    #primary #why .box {
+        width: 90%;
+        margin: 0 auto;
+    }
+    #primary #why #boat {
+        width: 100%;
+        padding: 5vh 30%;
+        box-sizing: border-box;
+    }
+    #primary #why .box #content img {
+        width: 30%;
+    }
+    #primary #gw-causes #flex .cause {
+        width: 90%;
+    }
+    #primary #gw-causes #flex .cause .info {
+        padding: 10px;
+    }
+    #primary #shark {
+        top: 0;
+        padding: 0 10%;
+    }
+    #primary #shark #text {
+        margin-top: 0!important;
+        margin-right: 0;
+        margin-bottom: 5vh;
+        box-shadow: 2px -2px 5px #222;
+    }
+    #primary #shark #text #tick-1 {
+        top: unset!important;
+        bottom: -5%!important;
+        border-top: none!important;
+    }
+    #primary #shark #text #tick-2 {
+        top: unset!important;
+        bottom: -5%!important;
+        border-top-left-radius: 100%!important;
+        border-bottom: none!important;
+        border-top: 1px solid #555!important;
+        border-bottom-left-radius: 0!important;
+    }
+    #primary #you-do {
+        margin: 5vh auto;
+    }
+    #primary #you-do #flex .box {
+        width: 90%;
+    }
+    #primary #treasure #text {
+        width: 100%;
+        order: 3;
+    }
+    #primary #treasure #left {
+        width: 50%;
+    }
+    #primary #treasure #right {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 992px) {
+    #primary #air-pollution .box #wrap div {
+        width: 100%;
+    }
+}

@@ -1,0 +1,265 @@
+
+main {
+    margin-top: 10vh;
+    width: 100%;
+    overflow: hidden;
+}
+#impacts #anatomy {
+    padding: 5vh 5vw;
+    background: #EEF;
+}
+#impacts #anatomy #intro {
+    text-align: center;
+    padding-bottom: 5vh;
+}
+#impacts #anatomy #images {
+    display: flex;
+    flex-wrap: wrap;
+}
+#impacts #anatomy #images img {
+    width: 100%;
+    padding: 20px !important;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+#impacts #anatomy #images img:not(#woman) {
+    border-width: 10px;
+    border-style: solid;
+}
+#impacts #anatomy #images div:not(#center) img:hover {
+    box-shadow: 2px 2px 15px #222;
+    cursor: pointer;
+}
+#impacts #anatomy #images #left {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-evenly;
+    width: 25%;
+}
+#impacts #anatomy #images #center {
+    width: 50%;
+}
+#impacts #anatomy #images #right {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    width: 25%;
+}
+#impacts #anatomy #images #eye {
+    width: 25%;
+    margin: 0 auto;
+}
+#impacts #anatomy #images #eye .wrap #eye {
+    width: 100%;
+}
+#impacts #anatomy #images #eye .wrap #eye.content {
+    width: calc(45vw - 10px);
+}
+#impacts #anatomy #images .wrap {
+    position: relative;
+}
+#impacts #anatomy #images .wrap .content {
+    color: #FFF;
+    padding: 20px;
+    width: calc(45vw - 10px);
+    position: absolute;
+    display: none;
+    z-index: 20;
+    box-sizing: border-box;
+}
+#impacts #anatomy #images #left .content {
+    top: 0;
+    left: 100%;
+}
+#impacts #anatomy #images #right .content {
+    top: 0;
+    right: 100%;
+}
+#impacts #anatomy #images #eye .content {
+    bottom: 100%;
+    left: 0;
+    transform: translate(-25%, 0);
+}
+#impacts #environment {
+    overflow: hidden;
+}
+#impacts #environment #intro {
+    text-align: center;
+    padding: 5vh 5vw;
+}
+#impacts #environment #images {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+#impacts #environment #images #small {
+    display: none;
+    width: 100%;
+}
+#impacts #environment #images #small img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: 0.5s;
+}
+#impacts #environment #images #left {
+    width: 25%;
+    position: absolute;
+    left: 0;
+    height: 100%;
+}
+#impacts #environment #images #center {
+    width: 100%;
+}
+#impacts #environment #images #right {
+    width: 25%;
+    position: absolute;
+    right: 0;
+    height: 100%;
+}
+#impacts #environment #images #center img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+}
+#impacts #environment #images a:first-child img {
+    margin-bottom: 10%;
+}
+#impacts #environment #images img {
+    width: 80%;
+    height: 45%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+#impacts #environment #images #left img:hover {
+    transform: scale(1.1);
+}
+#impacts #environment #images #right img:hover {
+    transform: scale(1.1);
+}
+#impacts #environment #images #right img {
+    margin-left: 20%;
+}
+#impacts #environment #info {
+    box-sizing: border-box;
+    padding: 10vh 20%;
+    text-align: center;
+}
+#impacts #environment #info .category {
+    padding: 5vh 5vw;
+    color: #FFF;
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    #impacts #anatomy #images #left {
+        width: 100%;
+    }
+    #impacts #anatomy #images #center {
+        width: 100%;
+    }
+    #impacts #anatomy #images #right {
+        width: 73%;
+        height: 20vh;
+    }
+    #impacts #anatomy #images img {
+        height: 100%;
+        object-fit: contain;
+        padding: 5px!important;
+    }
+    #impacts #anatomy #images #left .wrap {
+        width: 25%;
+        height: 20vh;
+    }
+    #impacts #anatomy #images #center #woman {
+        width: 100%;
+        height: 70vh;
+        object-fit: contain;
+        box-sizing: border-box;
+    }
+    #impacts #anatomy #images #right .wrap {
+        width: 26%;
+        height: 100%;
+    }
+    #impacts #anatomy #images #eye {
+        width: 27%;
+        margin: 0;
+        padding-left: 8%;
+        box-sizing: border-box;
+        height: 20vh;
+    }
+    #impacts #anatomy #images #eye .wrap {
+        height: 100%;
+    }
+    #impacts #anatomy #images #eye .wrap #eye {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    #impacts #anatomy #images #eye .wrap #eye.content {
+        width: 100%;
+    }
+    #impacts #anatomy #images .wrap {
+        position: unset;
+    }
+    #impacts #anatomy #images {
+        position: relative;
+    }
+    #impacts #anatomy #images .wrap .content {
+        width: 100%;
+    }
+    #impacts #anatomy #images #left .content {
+        top: 20vh;
+        left: 0;
+    }
+    #impacts #anatomy #images #right .content {
+        top: unset;
+        bottom: 20vh;
+        right: unset;
+        left: 0;
+    }
+    #impacts #anatomy #images #eye .content {
+        bottom: 20vh;
+        transform: none;
+        height: auto!important;
+    }
+    #impacts #anatomy #images img:not(#woman) {
+        border-width: 5px;
+    }
+    #impacts #environment #images #small {
+        display: block;
+    }
+    #impacts #environment #images #center {
+        display: none;
+    }
+    #impacts #environment #images #left {
+        width: 50%;
+        height: 20vh;
+        position: relative;
+        display: flex;
+    }
+    #impacts #environment #images #right {
+        width: 50%;
+        height: 20vh;
+        position: relative;
+        display: flex;
+    }
+    #impacts #environment #images a {
+        width: 50%;
+    }
+    #impacts #environment #images img {
+        width: 100%;
+        height: 100%;
+    }
+    #impacts #environment #images a:first-child img {
+        margin-bottom: 0;
+    }
+    #impacts #environment #images #right img {
+        margin-left: 0;
+    }
+    #impacts #environment #info {
+        padding: 5vh 10%;
+    }
+}

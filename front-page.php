@@ -7,13 +7,14 @@
     </section>
     <section id="schools">
         <a href="<?php bloginfo('wpurl')?>/primary-school" class="school">
-            <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/12/A114.jpg">
+            <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/12/images-13.jpg">
             <div class="overlay">
                 <h3>Primary School</h3>
             </div>
         </a>
         <a href="<?php bloginfo('wpurl')?>/high-school" class="school">
-            <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/12/A113.jpg">
+            <img
+                src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/12/bored-school-kid-school-girl-sleep-royalty-free-thumbnail.jpg">
             <div class="overlay">
                 <h3>High School</h3>
             </div>
