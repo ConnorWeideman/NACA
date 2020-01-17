@@ -6,9 +6,10 @@
         <h2>Why is the atmosphere important?</h2>
         <p>The atmosphere has several important functions, all of which are needed to sustain life on earth. There are 4
             major gases which make up air in Earth's atmosphere, they are Nitrogen (78%), Oxygen (21%), Argon (0.93%)
-            and Carbon dioxide (0.04%). Gases like carbon dioxide play a role in the absorption and retention of heat
-            from the suns rays, which inevitably keeps Earth at the perfect temperature to support life forms. Oxygen is
-            also an essential gas, used by organisms in the process of respiration.
+            and Carbon dioxide (0.04%). The sun radiates heat towards the earth, the earth the re-radiates the energy as
+            long-wave infrared radiation. Gases like carbon dioxide then play a role in the absorption and retention of
+            heat which originated from the sun. Greenhouse gases are vital to keep the earth at the perfect temperature
+            to support life forms. Oxygen is also an essential gas, used by organisms in the process of respiration.
         </p>
         <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/12/Screenshot-4.png">
         <p>Another major function is protecting life forms from the harmful ultra- violet radiation from the sun. This
@@ -23,16 +24,16 @@
             <p>Air pollution is described as the release of harmful chemicals and gases into the atmosphere. These
                 substances cause catastrophic affects on the environment, to human health, biodiversity and the climate.
             </p>
-            <p>Air pollutants are split into two integrated yet separated categories, that being of greenhouse gases and
-                criteria pollutants. Greenhouse gases are responsible for causing climate change while criteria
-                pollutants are responsible for the deterioration of peoples health.</p>
+            <p>Air pollutants are split into two integrated yet separated categories, greenhouse gases and criteria
+                pollutants. Greenhouse gases are responsible for causing climate change while criteria pollutants are
+                responsible for the deterioration of peoples health. </p>
         </div>
     </section>
     <section id="emissions">
         <h2>Emissions</h2>
         <div id="intro">
-            <p>Both criteria pollutants and greenhouse gases for the most part are released
-                by the same sources, however, the targets of their affects differ.</p>
+            <p>Both greenhouse gases and criteria pollutants are for the most part released by the same sources,
+                however, the targets of their effects differ.</p>
             <p>Depending on the businesses and industries found in your area, emissions and air quality may vary. If you
                 are
                 based in South Africa and would like to know what the air quality in your area is like, head to <a
@@ -56,132 +57,94 @@
                 <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/12/images-5.jpg">
                 <div class="info">
                     <h3>Greenhouse Gases</h3>
-                    <p>Greenhouse gases cause damage to the environment only. Their increased concentration in the
-                        atmosphere leads to the increased absorption of heat from the sun which causes global warming
-                        and by extension climate change.</p>
+                    <p>Greenhouse gases are responsible for increasing the earths global warming potential and inducing
+                        climate change. Their increased concentration in the atmosphere leads to the increased
+                        absorption of heat which originates from the sun.</p>
                 </div>
             </div>
         </div>
     </section>
     <section id="criteria">
         <h2>Criteria Pollutants</h2>
-        <p>There are six types of criteria pollutants. These are gases and particles that are emitted into the
-            atmosphere and are harmful to human health. This includes gases like nitrogen dioxide, ground level ozone,
-            carbon monoxide, lead, sulfur dioxide as well as particulate matter. These are the only pollutants with
-            national air quality standards (permissible amounts that may be emitted into the air). </p>
+        <p>re are seven types of criteria pollutants. These are gases and particles that are emitted into the atmosphere
+            and are harmful to human health. They include gases like nitrogen dioxide, ground level ozone, carbon
+            monoxide, lead and benzene, sulfur dioxide as well as particulate matter. These are the only pollutants with
+            national air quality standards (permissible amounts that may be emitted into the air).</p>
         <div id="wrap">
             <div class="pollutant">
                 <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/12/Nitrogen-dioxide-3D-vdW-1024x762.png">
                 <h3>Nitrogen Dioxide</h3>
                 <p>Nitrogen Dioxide (NO<sub>2</sub>) falls into a group of highly reactive gases known as nitrogen
-                    oxides
-                    (NO<sub>x</sub>). Other nitrogen oxides include nitrous acid and nitric acid. NO<sub>2</sub> is
-                    emitted
-                    through the burning of various types of fuels. Sources include cars, trucks, buses, power plants,
-                    and
-                    off-road equipment.</p>
+                    oxides (NO<sub>x</sub>). Other nitrogen oxides include nitrous acid and nitric acid. NO<sub>2</sub>
+                    is emitted through the burning of various types of fuels. Sources include cars, trucks, buses, power
+                    plants, and off-road equipment.</p>
                 <p>NO<sub>2</sub> when at high concentrations in the atmosphere can cause irritation in the airways of
-                    the
-                    respiratory system upon inhalation. Respiratory diseases such as asthma may become aggravated
-                    causing
-                    symptoms such as coughing, wheezing or difficulty with breathing this could result in increased
-                    hospital
-                    admissions. Other affects include the potential development of asthma and an increased
-                    susceptibility to
-                    respiratory infections. </p>
+                    the respiratory system upon inhalation. Respiratory diseases such as asthma may become aggravated
+                    causing symptoms such as coughing, wheezing or difficulty with breathing. These symptoms and side
+                    effects could lead to increased hospital admissions and an increased susceptibility to respiratory
+                    infections.</p>
             </div>
             <div class="pollutant">
                 <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/12/lead.png">
-                <h3>Lead</h3>
+                <h3>Lead and Benzene</h3>
                 <p>There are many sources that release lead into the atmosphere, a major source being ore and metals
-                    processing
-                    ( the lead concentrations are the highest around lead smelter) others include aircraft that run on
-                    aviation
-                    fuel containing lead, waste furnaces and lead-acid battery manufacturers. </p>
+                    processing ( the lead concentrations are the highest around lead smelter) others include aircraft
+                    that run on aviation fuel containing lead, waste furnaces and lead-acid battery manufacturers.</p>
                 <p>If lead is taken up by the body it begins to accumulate in the bones and can also cause severe damage
-                    to
-                    the
-                    central and peripheral nervous systems. Other parts of the body that are affected are the
-                    reproductive
-                    system, the kidneys and the heart. Lead exposure to infants and young toddlers has also shown to
-                    decrease IQ
-                    levels as well as cause learning disabilities. </p>
+                    to the central and peripheral nervous systems. Other parts of the body that are affected are the
+                    reproductive system, the kidneys and the heart. Lead exposure to infants and young toddlers has also
+                    shown to decrease IQ levels as well as cause learning disabilities.</p>
+                <p>Benzene on the other hand is a volatile, organic compound which is emitted mostly from the petrol
+                    chemical industry, vegetation fires and cigarette smoke. Benzene has shown to cause damage to the
+                    immune, reproductive and central nervous systems. Long- term exposure to this chemical has also
+                    proven to cause cancer. </p>
             </div>
             <div class="pollutant">
                 <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/12/800px-Carbon-monoxide-3D-balls.png">
                 <h3>Carbon Monoxide</h3>
-                <p> CO is a colorless, odorless gas. Carbon monoxide can be fatal to humans in large quantities. The CO
+                <p>CO is a colorless, odorless gas. Carbon monoxide can be fatal to humans in large quantities. The CO
                     molecules prevent the body from being able to take up as much oxygen from the air and can cause
-                    strain
-                    to
-                    the heart or even suffocation. CO mostly dangerous in enclosed spaces (indoors). The greatest
-                    sources of
-                    CO
-                    to the atmosphere are cars, trucks and other vehicles or machinery that burn fossil fuels. Household
-                    items
-                    such as gas burning stoves can also release CO. </p>
+                    strain to the heart or suffocation. CO is at its most dangerous in enclosed spaces (indoors). The
+                    greatest sources of CO are cars, trucks and other vehicles or machinery that burn fossil fuels.
+                    Household items such as gas burning stoves can also release CO.</p>
             </div>
             <div class="pollutant">
                 <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/12/Sulfur-dioxide-3D-balls-1024x552.png">
                 <h3>Sulfur Dioxide</h3>
                 <p>There is in fact an entire group of sulfur oxides (SO<sub>x</sub>), all of which are toxic and
-                    harmful to
-                    humans. SO<sub>2</sub> occurs in the greatest concentrations. Another sulfur oxide includes
-                    SO<sub>3</sub>
-                    which is of less concern but the presence of which is usually determined by that of its more
-                    significant
-                    counter part. SO<sub>2</sub> is primarily emitted by sources of fossil fuel combustion at power
-                    plants
-                    as
-                    well as in industrial processes. Sulfur dioxide is a colorless gas that has an unpleasant odor and
-                    is one of the primary compounds which makes up acid rain, consequently, it is also harmful to the
-                    environment.
-                    Exposure
-                    to
-                    SO<sub>2</sub>can harm the human respiratory system by making breathing difficult. Respiratory
-                    issues
-                    such
-                    as asthma are worsened by the presence of sulfur oxides. </p>
+                    harmful to humans. SO<sub>2</sub> occurs in the greatest concentrations. Another sulfur oxide
+                    includes SO<sub>3</sub> which is of less concern but the presence of which is usually determined by
+                    that of its more significant counter part. SO<sub>2</sub> is primarily emitted by sources of fossil
+                    fuel combustion at power plants as well as in industrial processes. Sulfur dioxide is a colorless
+                    gas that has an unpleasant odor and is one of the primary compounds which makes up acid rain,
+                    consequently, it is also harmful to the environment. Exposure to SO<sub>2</sub> can harm the human
+                    respiratory system by making breathing difficult. Respiratory issues such as asthma are worsened by
+                    the presence of sulfur oxides.</p>
             </div>
             <div class="pollutant">
                 <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/12/Ozone-CRC-MW-3D-vdW.png">
                 <h3>Ozone</h3>
-                <p>Ozone consists of three oxygen molecules. Depending on where it is found ozone can be both good or
-                    bad.
-                    Good
-                    ozone is found in the upper reaches of the atmosphere (the stratosphere) and it is responsible for
-                    protecting us from harmful ultraviolet radiation from the sun. Bad ozone however is found at ground
-                    level
-                    (is the main component of smog) where even in small concentrations it can be harmful to human
-                    health.
-                </p>
+                <p>Ozone consists of three oxygen molecules. Depending on where it is found ozone can be both beneficial
+                    or harmful. Beneficial ozone is found in the upper reaches of the atmosphere (the stratosphere) and
+                    it is responsible for protecting us from harmful ultraviolet radiation from the sun. Harmful ozone
+                    however is found at ground level (it is the main component of smog) where even in small
+                    concentrations it can be harmful to human health.</p>
             </div>
             <div class="pollutant">
                 <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/12/particles.png">
                 <h3>Particulate Matter</h3>
                 <p>Particulate matter (or PM) describes the mixture of solid particles and liquid droplets found in the
                     atmosphere. These particles include dust, dirt, soot, or smoke. These particles can be macroscopic
-                    (visible
-                    with the human eye) or microscopic ( a microscope is needed to see them). Particulate matter
-                    pollution
-                    is
-                    categorized by size, for example <strong>PM<sub>10</sub></strong> describes particles with diameters
-                    that
-                    are 10 micrometers or smaller. Particles of this size can be inhaled.
-                    <strong>PM<sub>2.5</sub></strong>
-                    however describes particles with diameters of 2.5 micrometers or smaller, these are extremely fine
-                    and
-                    can
-                    also be inhaled. These pollutants can be detrimental to an individuals health as they make their way
-                    into
-                    the lungs and bloodstream after being inhaled. Particulate matter pollution consists of a number of
-                    varying
-                    particles varying in size, shape and chemical composition. The sources of these pollutants also vary
-                    significantly, some examples of such sources include construction sites, unpaved roads, soil erosion
-                    of
-                    fields, smokestacks, wild fires or they also originate from complex reactions of chemicals in the
-                    atmosphere
-                    which are emitted from power stations, industries and vehicles.</p>
+                    (visible with the human eye) or microscopic ( a microscope is needed to see them). Particulate
+                    matter pollution is categorized by size, for example <strong>PM<sub>10</sub></strong> describes
+                    particles with diameters that are 10 micrometers or smaller. <strong>PM<sub>2.5</sub></strong>
+                    however describes particles with diameters of 2.5 micrometers or smaller, these are extremely fine.
+                    These pollutants can be detrimental to an individuals health as they make their way into the lungs
+                    and bloodstream after being inhaled. Particulate matter pollution varies in size, shape and chemical
+                    composition. The sources of these pollutants also vary significantly, some examples of such sources
+                    include construction sites, unpaved roads, soil erosion of fields, smokestacks and wild fires. These
+                    particulates also originate from complex chemical reactions in the atmosphere, the chemical
+                    components of which are emitted by power stations, industries and vehicles.</p>
             </div>
         </div>
         <div id="monitoring">
@@ -206,11 +169,6 @@
     </section>
     <section id="gh">
         <h2>Greenhouse Gases</h2>
-        <p>Greenhouse gases are chemicals such as carbon dioxide, methane, nitrous oxide and ozone. These chemicals are
-            present in the atmosphere and are capable of absorbing large amounts of heat from the sun. These gases play
-            an essential role in maintaining earths surface temperatures in order to support life. However as human
-            activities increase the concentrations of these gases in the atmosphere, more heat is absorbed causing
-            global average temperatures to increase.</p>
         <section id="greenhouse">
             <div id="flex">
                 <div id="wrap">
@@ -223,12 +181,12 @@
                         the glass, so even on cold winter nights the temperatures within the greenhouse remain moderate
                         and comfortable enough to keep plants alive. Similarly, greenhouse gases act as the glass of the
                         greenhouse, they surround the earth in the atmosphere and are responsible for the absorption of
-                        heat from the sun. The greenhouse effect is very important as it ensures that temperatures at
-                        the earths surface are well within range to sustain all life forms. However, when there is an
-                        excess amount of greenhouse gases present in the atmosphere, there is more gas to absorb heat
-                        and this creates an enhanced greenhouse effect. It is this enhanced greenhouse effect that is
-                        responsible an increase in global temperatures, bringing about global warming and climate
-                        change.</p>
+                        energy in the form of long-wave infrared radiation from the earth. The greenhouse effect is very
+                        important as it ensures that temperatures at the earths surface are well within range to sustain
+                        all life forms. However, when there is an excess amount of greenhouse gases present in the
+                        atmosphere, there is more gas to absorb heat and this creates an enhanced greenhouse effect. It
+                        is this enhanced greenhouse effect that is responsible an increase in global atmospheric
+                        temperatures, bringing about global warming and climate change.</p>
                 </div>
             </div>
         </section>
@@ -237,13 +195,10 @@
             <div id="temperatures">
                 <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/12/images.png">
                 <h4>Increasing Average Global Temperatures</h4>
-                <p>The increase in greenhouse gas emissions means that there is a larger concentration of gas present in
-                    the atmosphere that are able to absorb and re-radiate heat from the suns rays. This increases the
-                    amount of heat that is trapped within the earths atmosphere and results in global average
-                    temperatures rising significantly, we call this phenomenon, global warming. Increased temperatures
-                    cause changes in the otherwise predictable weather conditions as well as fluctuations in rainfall
-                    patterns. There are six major effects global warming and climate change, they are droughts, floods,
-                    desertification,wildfires, a decrease in biodiversity and the melting of polar ice caps.</p>
+                <p>Increased atmospheric temperatures brought about by the enhanced greenhouse effect cause changes in
+                    the otherwise predictable weather conditions as well as fluctuations in rainfall patterns. There are
+                    six major effects of global warming and climate change, namely, droughts, floods, desertification,
+                    wildfires, a decrease in biodiversity and the melting of polar ice caps.</p>
             </div>
             <div id="desertification">
                 <h4>Desertification</h4>
@@ -258,33 +213,32 @@
             <div id="ice">
                 <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/12/43408748212_4f05e95e81_o-scaled.jpg">
                 <h4>Melting Ice Caps</h4>
-                <p>When temperatures rise, large islands and glaciers of ice found at the Southern and Northern poles of
-                    the globe, begin to melt. The melting of this ice results in the rising of sea levels. Major cities
-                    that lie right on coast lines (all over the world) face issues like coastal erosion and flooding.
-                    Another issue that results from the melting of polar ice-caps is that there are animals that call
-                    these parts of the world home. Polar bears, Emperor penguins and snow leopards all suffer as their
+                <p>When temperatures rise, large glaciers attached to the continental Southern and Northern poles of the
+                    globe, begin to melt. The melting of this ice results in the rising of sea levels. Major cities that
+                    lie right on coast lines (all over the world) face issues like coastal erosion and flooding. Another
+                    issue that results from the melting of polar ice-caps is that there are animals that call these
+                    parts of the world home. Polar bears, Emperor penguins and snow leopards all suffer as their
                     habitats are destroyed. Polar bears for example go hunting in search of food and then cannot find
                     pieces of ice large enough to rest on, eventually they are too exhausted to swim and they drown.</p>
                 <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/12/43408748212_4f05e95e81_o-scaled.jpg">
             </div>
             <div id="floods">
                 <h4>Droughts and Floods</h4>
-                <p>The fluctuations in rainfall patterns results in flooding and droughts. If rain becomes more
-                    frequent, it causes flooding and if rainfall decreases it causes droughts. Places like Durban have
-                    struggled with flooding while Cape Town was facing severe water restrictions in 2018 as a result of
-                    drought. These natural disasters are bad for farmers and the agricultural industry as crops suffer
-                    and food becomes more expensive. Droughts and floods also affect plants and animals and can decrease
-                    biodiversity.</p>
+                <p>The fluctuations in rainfall patterns can result in floods or droughts. If rainfall becomes more
+                    frequent and increases above normal levels it causes flooding. In contrast if rainfall decreases
+                    below normal levels it causes droughts. Places like Durban have struggled with flooding while Cape
+                    Town faced severe water restrictions in 2018 as a result of drought. These natural disasters are bad
+                    for farmers and the agricultural industry as crops suffer and food becomes more expensive. Droughts
+                    and floods also affect plants and animals and can decrease biodiversity.</p>
             </div>
             <div id="wildfires">
                 <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2020/01/Deerfire_high_res_edit-1-1.jpg">
                 <h4>Wildfires</h4>
-                <p>The fluctuations in rainfall patterns results in flooding and droughts. If rain becomes more
-                    frequent, it causes flooding and if rainfall decreases it causes droughts. Places like Durban have
-                    struggled with flooding while Cape Town was facing severe water restrictions in 2018 as a result of
-                    drought. These natural disasters are bad for farmers and the agricultural industry as crops suffer
-                    and food becomes more expensive. Droughts and floods also affect plants and animals and can decrease
-                    biodiversity.</p>
+                <p>Wildfires are natural occurrences, however they can be started by human activities too. When
+                    temperatures increase near areas that have lots of plant life and thick vegetation fires start and
+                    spread a lot quicker and become increasingly more dangerous. These fires destroy buildings, plants
+                    and even animals that cannot escape. Examples of places where wildfires have caused large amounts of
+                    damage are in California, the Amazon and Australia. </p>
             </div>
         </section>
     </section>
@@ -315,19 +269,19 @@
         <h2>What is the South African government doing about air quality?</h2>
         <p>South Africa has had strict rules and regulations regarding air quality since 2004 when the Air Quality Act
             was established. The enforcement of these rules and regulations falls upon the Minister of Environmental
-            Affairs. Since 2004 many framework and management strategies have been implemented in governments attempts
-            to improve air quality in South Africa. Ozone depleting substances have been phased- out, ambient air
-            quality standards for seven pollutants have been established and emission limitations have been imposed on
-            small- scale charcoal plants. These are just a few of the strategies that government have carried out. These
-            are however ongoing attempts to improve air quality and environmental impacts, for example President Cyril
-            Ramaphosa in 2019 signed a Carbon Tax Act into law. This act charges greenhouse gas emitters for every
-            certain amount of pollutant they release into the atmosphere in a year. </p>
+            Affairs. Since 2004 many framework and management strategies have been rolled out in governments attempts to
+            improve air quality in South Africa. Ozone depleting substances have been phased out, ambient air quality
+            standards for seven pollutants have been established and emission limitations have been imposed on large and
+            small scale industries. These are just a few of the strategies that government has implemented. These are
+            however ongoing attempts to improve air quality and environmental impacts, for example President Cyril
+            Ramaphosa in 2019 signed a Carbon Tax Act into law. This act charges greenhouse gas emitters for the
+            quantity of gases they release into the atmosphere in a year.</p>
         <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/12/south-africa-1184103_960_720.jpg">
     </section>
     <section id="ngo">
         <h2>What are NGO's doing about air pollution?</h2>
-        <p>There are many majorly influential NGO's that are also involved in trying to improve air quality not only in
-            South Africa but around the world. For example The World Health Organisation is heavily involved in the
+        <p>There are many influential NGO's that are also involved in trying to improve air quality not only in South
+            Africa but around the world. For example The World Health Organisation is heavily involved in the
             implementation of air quality legislation all over the world and has labelled air pollution as the single
             biggest environmental health crisis of our time. As an NGO your priorities include education and advocacy.
             Education because NGO's make it their responsibility to make the public and influential members of society
@@ -351,17 +305,11 @@
                 <div class="content">
                     <h4>Solar power</h4>
                     <p>Solar panels harvest energy from the sun and convert it into a more useful form such as
-                        electricity.
-                        Photo-voltaic systems are used to create electricity and concentrated solar power is used mainly
-                        for
-                        thermal
-                        energy needs. This energy source is sustainable because no damage is inflicted on the
-                        environment,
-                        and
-                        sunlight is easy to come by. This however would not be an effective solution for areas that are
-                        overcast
-                        or
-                        which receive little sunlight throughout the year.</p>
+                        electricity. Photo-voltaic systems are used to create electricity and concentrated solar power
+                        is used mainly for thermal energy needs. This energy source is sustainable because no damage is
+                        inflicted on the environment, and sunlight is easy to come by. This, however, would not be an
+                        effective solution for areas that are overcast or which receive little sunlight throughout the
+                        year.</p>
                 </div>
             </div>
             <div class="energy">
@@ -411,13 +359,11 @@
             <div class="solution">
                 <h3>Introducing Legislation</h3>
                 <p>By getting governments involved, legislation can be passed which places restrictions on the amount of
-                    greenhouse gases certain industries are allowed to emit. This is implemented by monitoring industry
-                    emissions and if facilities exceed the given restrictions they are then heavily fined. In many
-                    countries
-                    companies pay tax based on the amount of carbon dioxide they emit into the atmosphere (carbon tax),
-                    this
-                    is
-                    to encourage companies to find more sustainable ways to produce products.</p>
+                    greenhouse gases and criteria pollutants industries are allowed to emit. This is implemented by
+                    monitoring industry emissions and if facilities exceed the given restrictions they are then heavily
+                    fined. In many countries companies pay tax based on the amount of carbon dioxide they emit into the
+                    atmosphere (carbon tax), this is to encourage companies to find more sustainable ways to produce
+                    products.</p>
             </div>
             <div class="solution">
                 <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/12/images-24.jpg">
@@ -425,7 +371,7 @@
                 <p>Many companies have been working on cars that run on electricity instead of petrol (a fossil fuel).
                     Even though in many cases electricity is still generated from burning fossil fuels, using
                     electricity emits less carbon dioxide and pollutants into the atmosphere as apposed to running a car
-                    on petrol. These cars have electrical motors which store energy in rechargeable batteries. These
+                    on petrol. These cars store energy in rechargeable batteries which then power electric motors. These
                     battery powered cars are however only one of the many other alternative fuels that are being trialed
                     and tested.</p>
             </div>

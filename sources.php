@@ -23,9 +23,10 @@
             <img
                 src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/12/875px-Noun_Project_lightbulb_icon_1263005_cc.svg_.png">
         </h2>
-        <p>
+        <div id="info">
             <?php echo get_field('tip')?>
-        </p>
+        </div>
+        <a id="button" href="<?php bloginfo('wpurl')?>/high-school#sources">Back</a>
     </section>
 </main>
 

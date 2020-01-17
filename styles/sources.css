@@ -36,9 +36,24 @@
     object-fit: contain;
     vertical-align: bottom;
 }
-#sources #tip p {
+#sources #tip #info {
     margin: 0;
     padding: 5vh 20% 0;
+}
+#sources #tip #button {
+    width: 30%;
+    margin: 5vh auto;
+    background: linear-gradient(#248FCF, #026FAE);
+    text-align: center;
+    color: #FFF;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-decoration: none;
+    display: block;
+}
+#sources #tip #button:hover {
+    background: linear-gradient(#004D8C, #026FAE);
 }
 @media screen and (max-width: 768px) {
     #sources #lower {
@@ -47,7 +62,7 @@
     #sources .content {
         padding: 5vh 10%;
     }
-    #sources #tip p {
+    #sources #tip #info {
         padding: 5vh 10% 0;
     }
 }

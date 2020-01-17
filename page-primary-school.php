@@ -58,7 +58,7 @@
                         <p>Greenhouse gases are very bad for the environment, they cause global warming and climate
                             change. Examples of greenhouse gases are carbon dioxide and methane. The reason these gases
                             are so harmful is because they are very good at absorbing energy, in the form of heat, that
-                            originates from the sun, this means the more of these gases there are in the atmosphere, the
+                            originates from the sun. This means the more of these gases there are in the atmosphere, the
                             higher the temperatures are going to be at earths surface in the future.</p>
                         <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/12/globalwarming.png">
                     </div>
@@ -107,10 +107,11 @@
                 <img src="<?php bloginfo('wpurl')?>/wp-content/uploads/2019/12/Airplane_clipart.svg_.png">
                 <div class="info">
                     <h3>Transport</h3>
-                    <p>Cars, trucks, trains, aeroplanes and ships all use fuel which are made from fossil fuels. Fossil
-                        fuels are things like coal and oil, they are found underground and took millions and millions of
-                        years to form. When fossil fuels are burned or are used in engines of things like cars or
-                        aeroplanes they release greenhouse gases and criteria pollutants into the atmosphere.</p>
+                    <p>Cars, motorbikes, trucks, trains, aeroplanes and ships all use fuel which are made from fossil
+                        fuels. Fossil fuels are things like coal and oil, they are found underground and took millions
+                        and millions of years to form. When fossil fuels are burned or are used in engines of things
+                        like cars or aeroplanes they release greenhouse gases and criteria pollutants into the
+                        atmosphere.</p>
                 </div>
             </div>
             <div class="cause">
@@ -146,7 +147,7 @@
                 <div class="info">
                     <h3>Electricity</h3>
                     <p>To make electricity power stations have to burn fossil fuels such as coal and oil. These fossil
-                        fuels releases criteria pollutants and greenhouse gases when they are burnt, which are
+                        fuels release criteria pollutants and greenhouse gases when they are burnt, which are
                         potentially bad for our health and the environment.</p>
                 </div>
             </div>

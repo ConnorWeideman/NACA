@@ -76,18 +76,12 @@
                         <div id="intestines" class="content" style="background: #46bcd9">
                             <h3>Intestines</h3>
                             <p>Particulates that are cleared out of the lungs and respiratory system often make there
-                                way
-                                through the intestinal tract in mucus before being excreted by the body, this means that
-                                these
-                                contaminants are continuously moving through the intestines. Studies have also shown
-                                that there
-                                is a significant increase in the rate Exposure to high levels of air pollution has
-                                proven to
-                                have a significant effect on the rate of bowel disease cases in studies conducted in
-                                certain
-                                hospitals. Contaminates such as carbon monoxide, volatile organic chemicals, fine
-                                particulate
-                                matter etc. were all found to contribute to a decline in intestinal health.</p>
+                                way through the intestinal tract in mucus before being excreted by the body. This means
+                                that these contaminants are continuously moving through the intestines. Studies have
+                                also shown that an increase in exposure to high levels of air pollution has had a
+                                significant effect on the rate of bowel diseases. Contaminates such as carbon monoxide,
+                                volatile organic chemicals and fine particulate matter were all found to contribute to a
+                                decline in intestinal health.</p>
                         </div>
                     </div>
                     <div class="wrap">
@@ -210,16 +204,19 @@
                 </div>
                 <div class="category" id="plants" style="background: #4bba3a">
                     <h3>Plants</h3>
-                    <p>Plants need nitrogen to grow and develop, too much nitrogen however causes rapid growth, which
-                        then clogs up waterways, this is known as an algal bloom, same may be toxic. Acid rain caused by
-                        nitrous oxide and sulfur dioxide increases the pH of water bodies and may in some cases affect
-                        the ability of certain plants to grow and thrive.</p>
+                    <p>Plants need nitrogen to grow and develop. Too much nitrogen however, causes rapid growth which
+                        then clogs up waterways and is known as algal bloom.</p>
+                    <p> Acid rain is caused from high levels of oxides of nitrogen and sulfur dioxide being emitted into
+                        the atmosphere. The deposition of the acid rain has an impact on water bodies, soil, vegetation
+                        and even man-made buildings. The decrease of the pH levels of water bodies and soils can have a
+                        negative indirect affect on ecosystems, for example hindering the ability of certain plants to
+                        grow and thrive.</p>
                 </div>
                 <div class="category" id="soil" style="background: #a86f35">
                     <h3>Soil</h3>
-                    <p>Acid rain, which results from air pollutants such as sulfur dioxide and nitrous oxide, changes
-                        the pH of the soil and makes it challenging for plants to grow effectively as soil quality
-                        declines.</p>
+                    <p>Acid rain, which results from air pollutants such as sulfur dioxide and oxides of nitrogen,
+                        change the pH of the soil and makes it challenging for plants to grow effectively as soil
+                        quality declines.</p>
                 </div>
                 <div class="category" id="animals" style="background: #dccf78">
                     <h3>Animals</h3>
@@ -227,13 +224,14 @@
                         burning fossil fuels such as coal. Mercury then dissolves in water where respiring bacteria
                         converts it into toxic methyl mercury. Fish and shellfish then absorb methyl mercury into their
                         bodies and when other animals ingest these contaminated organisms the methyl mercury then
-                        poisons their bodies too. Another air pollutant that affects the quality of water is nitrogen,
-                        algae grows rapidly in the presence of nitrogen and creates a layer on the surface of the water
-                        that prevents sunlight from reaching the aquatic plants at the bottom of the lake. This causes
-                        the plants to die and increases the decomposing bacteria present in the lake, these bacteria
-                        then use up large amounts of available oxygen in the water and make makes it more difficult for
-                        fish to survive. Acid rain caused by nitrous oxide and sulfur dioxide also decreases the pH of
-                        the water which affects the hatching of certain species of fish eggs.</p>
+                        poisons their bodies too. </p>
+                    <p>Another air pollutant that affects the quality of water is nitrogen. Algae grows rapidly in the
+                        presence of nitrogen and creates a layer on the surface of the water that prevents sunlight from
+                        reaching the aquatic plants at the bottom of the lake. This causes the plants to die and
+                        increases the decomposing bacteria present in the lake. These bacteria then use up large amounts
+                        of available oxygen in the water and make it difficult for fish to survive. </p>
+                    <p>Acid rain caused by oxides of nitrogen and sulfur dioxide also decrease the pH of the water which
+                        affects the hatching of certain species of fish eggs.</p>
                 </div>
             </div>
         </section>
