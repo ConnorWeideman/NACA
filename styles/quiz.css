@@ -12,10 +12,13 @@
     width: 100%;
     height: 100%;
     background: #EEF;
+    display: -webkit-box;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
+            justify-content: space-evenly;
     align-content: space-evenly;
+    -webkit-transition: 0.5s;
     transition: 0.5s;
 }
 #quiz #intro .school {
@@ -24,13 +27,16 @@
     position: relative;
     border: 2px solid #026fae;
     box-sizing: border-box;
+    display: -webkit-box;
     display: flex;
     box-shadow: 2px 2px 5px #555;
+    -webkit-transition: 0.5s;
     transition: 0.5s;
     cursor: pointer;
 }
 #quiz #intro .school:hover {
-    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
     box-shadow: 2px 2px 10px #555;
 }
 #quiz #intro .school img {
@@ -39,7 +45,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 #quiz #intro .school .overlay {
     background: radial-gradient(#026fae, #005);
@@ -64,7 +71,8 @@
     min-height: 90vh;
     display: none;
     flex-wrap: wrap;
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
     align-content: space-between;
 }
 #quiz #slides .slide {
@@ -79,9 +87,11 @@
     width: 100%;
 }
 #quiz #slides .slide .answers {
+    display: -webkit-box;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
+            justify-content: space-evenly;
 }
 #quiz #slides .slide .answers .answer {
     display: table;
@@ -90,13 +100,15 @@
     background: #026fae;
     border: 1px solid #222;
     box-shadow: 2px 2px 5px #555;
+    -webkit-transition: 0.5s;
     transition: 0.5s;
     cursor: pointer;
     padding: 10px;
     box-sizing: border-box;
 }
 #quiz #slides .slide .answers .answer:hover {
-    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
 }
 #quiz #slides .slide .answers .answer p {
     display: table-cell;
@@ -109,10 +121,13 @@
     width: 100%;
     padding: 0 5% 5vh;
     box-sizing: border-box;
+    display: -webkit-box;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
 }
 #quiz #buttons .button {
+    background: -webkit-gradient(linear, left top, left bottom, from(#248FCF), to(#026FAE));
     background: linear-gradient(#248FCF, #026FAE);
     text-align: center;
     color: #FFF;
@@ -121,9 +136,12 @@
     border-radius: 10px;
     text-decoration: none;
     cursor: pointer;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
 }
 #quiz #buttons .button:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#004D8C), to(#026FAE));
     background: linear-gradient(#004D8C, #026FAE);
 }
 #quiz #buttons #previous {
@@ -141,16 +159,19 @@
     box-sizing: border-box;
     text-align: center;
     flex-wrap: wrap;
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
     align-content: center;
 }
 #quiz #fin p {
     width: 100%;
 }
 #quiz #fin #buttons {
+    display: -webkit-box;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
+            justify-content: space-evenly;
 }
 #quiz #fin #buttons .button {
     margin: 5%;

@@ -5,9 +5,11 @@
 }
 #front #schools {
     padding: 0 5vw 5vh;
+    display: -webkit-box;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
+            justify-content: space-evenly;
 }
 #front #schools .school {
     width: 40vw;
@@ -16,12 +18,14 @@
     box-sizing: border-box;
     position: relative;
     display: block;
+    -webkit-transition: 0.5s;
     transition: 0.5s;
     box-shadow: 2px 2px 5px #555;
     margin: 10px 0;
 }
 #front #schools .school:hover {
-    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
     box-shadow: 2px 2px 10px #555;
 }
 #front #schools .school:hover .overlay {
@@ -33,7 +37,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 #front #schools .school .overlay {
     position: absolute;
@@ -44,6 +49,7 @@
     text-align: center;
     background: #026fae;
     opacity: 0.8;
+    -webkit-transition: 0.5s;
     transition: 0.5s;
     color: #FFF;
 }

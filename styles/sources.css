@@ -10,7 +10,8 @@
 #sources .img {
     width: 100%;
     height: 30vh;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -33,7 +34,8 @@
 #sources #tip h2 img {
     height: 40px;
     width: auto;
-    object-fit: contain;
+    -o-object-fit: contain;
+       object-fit: contain;
     vertical-align: bottom;
 }
 #sources #tip #info {
@@ -43,6 +45,7 @@
 #sources #tip #button {
     width: 30%;
     margin: 5vh auto;
+    background: -webkit-gradient(linear, left top, left bottom, from(#248FCF), to(#026FAE));
     background: linear-gradient(#248FCF, #026FAE);
     text-align: center;
     color: #FFF;
@@ -53,6 +56,7 @@
     display: block;
 }
 #sources #tip #button:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#004D8C), to(#026FAE));
     background: linear-gradient(#004D8C, #026FAE);
 }
 @media screen and (max-width: 768px) {

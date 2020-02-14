@@ -13,6 +13,7 @@ main {
     padding-bottom: 5vh;
 }
 #impacts #anatomy #images {
+    display: -webkit-box;
     display: flex;
     flex-wrap: wrap;
 }
@@ -20,6 +21,7 @@ main {
     width: 100%;
     padding: 20px !important;
     box-sizing: border-box;
+    -webkit-transition: 0.5s;
     transition: 0.5s;
 }
 #impacts #anatomy #images img:not(#woman) {
@@ -31,20 +33,24 @@ main {
     cursor: pointer;
 }
 #impacts #anatomy #images #left {
+    display: -webkit-box;
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
-    justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
+            justify-content: space-evenly;
     width: 25%;
 }
 #impacts #anatomy #images #center {
     width: 50%;
 }
 #impacts #anatomy #images #right {
+    display: -webkit-box;
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
     width: 25%;
 }
 #impacts #anatomy #images #eye {
@@ -80,7 +86,8 @@ main {
 #impacts #anatomy #images #eye .content {
     bottom: 100%;
     left: 0;
-    transform: translate(-25%, 0);
+    -webkit-transform: translate(-25%, 0);
+            transform: translate(-25%, 0);
 }
 #impacts #environment {
     overflow: hidden;
@@ -90,6 +97,7 @@ main {
     padding: 5vh 5vw;
 }
 #impacts #environment #images {
+    display: -webkit-box;
     display: flex;
     position: relative;
     flex-wrap: wrap;
@@ -101,7 +109,9 @@ main {
 #impacts #environment #images #small img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    -o-object-fit: contain;
+       object-fit: contain;
+    -webkit-transition: 0.5s;
     transition: 0.5s;
 }
 #impacts #environment #images #left {
@@ -122,7 +132,8 @@ main {
 #impacts #environment #images #center img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     margin: 0;
 }
 #impacts #environment #images a:first-child img {
@@ -131,14 +142,18 @@ main {
 #impacts #environment #images img {
     width: 80%;
     height: 45%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-transition: 0.5s;
     transition: 0.5s;
 }
 #impacts #environment #images #left img:hover {
-    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
 }
 #impacts #environment #images #right img:hover {
-    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
 }
 #impacts #environment #images #right img {
     margin-left: 20%;
@@ -166,7 +181,8 @@ main {
     }
     #impacts #anatomy #images img {
         height: 100%;
-        object-fit: contain;
+        -o-object-fit: contain;
+           object-fit: contain;
         padding: 5px!important;
     }
     #impacts #anatomy #images #left .wrap {
@@ -176,7 +192,8 @@ main {
     #impacts #anatomy #images #center #woman {
         width: 100%;
         height: 70vh;
-        object-fit: contain;
+        -o-object-fit: contain;
+           object-fit: contain;
         box-sizing: border-box;
     }
     #impacts #anatomy #images #right .wrap {
@@ -196,7 +213,8 @@ main {
     #impacts #anatomy #images #eye .wrap #eye {
         width: 100%;
         height: 100%;
-        object-fit: contain;
+        -o-object-fit: contain;
+           object-fit: contain;
     }
     #impacts #anatomy #images #eye .wrap #eye.content {
         width: 100%;
@@ -222,7 +240,8 @@ main {
     }
     #impacts #anatomy #images #eye .content {
         bottom: 20vh;
-        transform: none;
+        -webkit-transform: none;
+                transform: none;
         height: auto!important;
     }
     #impacts #anatomy #images img:not(#woman) {
@@ -238,12 +257,14 @@ main {
         width: 50%;
         height: 20vh;
         position: relative;
+        display: -webkit-box;
         display: flex;
     }
     #impacts #environment #images #right {
         width: 50%;
         height: 20vh;
         position: relative;
+        display: -webkit-box;
         display: flex;
     }
     #impacts #environment #images a {

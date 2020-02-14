@@ -29,17 +29,20 @@
     border: 4px solid #026fae;
     margin: 2vh auto;
     width: 60%;
-    object-fit: contain;
+    -o-object-fit: contain;
+       object-fit: contain;
 }
 #high-school #air #info {
     width: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     position: relative;
 }
 #high-school #air #info img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     position: absolute;
     top: 0;
     left: 0;
@@ -63,11 +66,13 @@
     text-align: center;
 }
 #high-school #emissions #wrap {
+    display: -webkit-box;
     display: flex;
     flex-wrap: wrap;
 }
 #high-school #emissions #wrap .emission {
-    flex: 50%;
+    -webkit-box-flex: 50%;
+            flex: 50%;
     border: 2px solid #026fae;
     text-align: center;
     box-sizing: border-box;
@@ -75,7 +80,8 @@
 #high-school #emissions #wrap .emission img {
     width: 100%;
     height: 40vh;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     border-bottom: 2px solid #026fae;
 }
 #high-school #emissions #wrap .emission .info {
@@ -86,9 +92,11 @@
     text-align: center;
 }
 #high-school #criteria #wrap {
+    display: -webkit-box;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
     padding: 0 5%;
 }
 #high-school #criteria #wrap .pollutant {
@@ -103,16 +111,19 @@
 }
 #high-school #criteria #wrap .pollutant:hover {
     box-shadow: 2px 2px 5px 2px #555;
-    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
 }
 #high-school #criteria #wrap .pollutant.noHover:hover {
-    transform: scale(1);
+    -webkit-transform: scale(1);
+            transform: scale(1);
     box-shadow: 2px 2px 5px #555;
 }
 #high-school #criteria #wrap .pollutant img {
     width: 100%;
     height: 30vh;
-    object-fit: contain;
+    -o-object-fit: contain;
+       object-fit: contain;
 }
 #high-school #criteria #wrap .pollutant h3 {
     width: 100%;
@@ -131,7 +142,8 @@
     border: 4px solid #026fae;
     margin: 2vh auto;
     width: 60%;
-    object-fit: contain;
+    -o-object-fit: contain;
+       object-fit: contain;
 }
 #high-school #criteria #effects {
     text-align: center;
@@ -143,6 +155,7 @@
 #high-school #criteria #effects #button {
     width: 50%;
     margin: auto;
+    background: -webkit-gradient(linear, left top, left bottom, from(#248FCF), to(#026FAE));
     background: linear-gradient(#248FCF, #026FAE);
     text-align: center;
     color: #FFF;
@@ -152,6 +165,7 @@
     text-decoration: none;
 }
 #high-school #criteria #effects #button:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#004D8C), to(#026FAE));
     background: linear-gradient(#004D8C, #026FAE);
 }
 #high-school #gh > p {
@@ -159,9 +173,11 @@
     padding: 5vh 20%;
 }
 #high-school #gh #greenhouse #flex {
+    display: -webkit-box;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
     align-content: center;
 }
 #high-school #gh #greenhouse #wrap {
@@ -171,7 +187,8 @@
 }
 #high-school #gh #greenhouse img {
     width: 100%;
-    object-fit: contain;
+    -o-object-fit: contain;
+       object-fit: contain;
     border: 4px solid #026fae;
     box-sizing: border-box;
 }
@@ -180,6 +197,8 @@
     width: 50%;
     box-sizing: border-box;
     margin: 0;
+    height: -webkit-max-content;
+    height: -moz-max-content;
     height: max-content;
     align-self: center;
 }
@@ -209,7 +228,8 @@
     height: 30vh;
     border-top: 5px solid #026fae;
     border-bottom: 5px solid #026fae;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -251,8 +271,10 @@
     margin: 20px;
 }
 #high-school #sources #wrap {
+    display: -webkit-box;
     display: flex;
-    justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
+            justify-content: space-evenly;
     align-content: center;
     flex-wrap: wrap;
     padding: 10vh 10%;
@@ -266,11 +288,13 @@
     width: 26%;
     padding-top: 26%;
     margin-top: 4%;
+    -webkit-transition: 0.5s;
     transition: 0.5s;
     box-sizing: border-box;
 }
 #high-school #sources #wrap .circle:hover {
-    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
     opacity: 1;
     box-shadow: 2px 2px 5px #222;
 }
@@ -311,18 +335,21 @@
     padding: 5vh 20%;
 }
 #high-school #solutions #row {
+    display: -webkit-box;
     display: flex;
     flex-wrap: wrap;
 }
 #high-school #solutions #row .energy {
     border: 2px solid #026fae;
-    flex: 33%;
+    -webkit-box-flex: 33%;
+            flex: 33%;
     box-sizing: border-box;
 }
 #high-school #solutions #row .energy img {
     width: 100%;
     height: 40vh;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 #high-school #solutions #row .energy .content {
     width: 100%;
@@ -342,7 +369,8 @@
     border: 4px solid #026fae;
     width: 40%;
     height: auto;
-    object-fit: contain;
+    -o-object-fit: contain;
+       object-fit: contain;
     float: right;
     box-sizing: border-box;
     margin: 20px;
@@ -354,11 +382,13 @@
     float: left;
 }
 #high-school #you-do #wrap {
+    display: -webkit-box;
     display: flex;
     flex-wrap: wrap;
 }
 #high-school #you-do #wrap .thing {
-    flex: 33%;
+    -webkit-box-flex: 33%;
+            flex: 33%;
     flex-shrink: 0;
     position: relative;
     height: 50vh;
@@ -371,7 +401,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 #high-school #you-do #wrap .thing .overlay {
     position: absolute;
@@ -401,6 +432,7 @@
     height: auto;
     max-height: 0;
     box-sizing: border-box;
+    -webkit-transition: linear 1s;
     transition: linear 1s;
     overflow: hidden;
     margin: 0;
@@ -423,7 +455,8 @@
         padding: 5vh 10%;
     }
     #high-school #emissions #wrap .emission {
-        flex: 100%;
+        -webkit-box-flex: 100%;
+                flex: 100%;
     }
     #high-school #emissions #wrap .emission img {
         height: 30vh;
@@ -508,7 +541,8 @@
         padding: 5vh 10%;
     }
     #high-school #solutions #row .energy {
-        flex: 100%;
+        -webkit-box-flex: 100%;
+                flex: 100%;
     }
     #high-school #solutions #row .energy .content {
         padding: 10px;
@@ -525,7 +559,8 @@
     #high-school #solutions .wrap .solution img {
     width: 110%;
     height: 40vh;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     float: none;
     position: relative;
     left: -5%;
@@ -535,7 +570,8 @@
         float: none;
     }
     #high-school #you-do #wrap .thing {
-        flex: 100%!important;
+        -webkit-box-flex: 100%!important;
+                flex: 100%!important;
     }
     #high-school #you-do #wrap .thing:hover .overlay p {
         max-height: 66vh;
@@ -543,6 +579,7 @@
 }
 @media screen and (max-width: 992px) {
     #high-school #you-do #wrap .thing {
-        flex: 50%;
+        -webkit-box-flex: 50%;
+                flex: 50%;
     }
 }
